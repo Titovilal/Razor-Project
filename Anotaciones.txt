@@ -1,17 +1,21 @@
 POSIBLES FUNCIONES DEL PROGRAMA
 {
-	Modo Calculadora
 	Modo Lista de Tareas
+	Modo IA Tools para hacer equipos y elegir numero aleatorio
+	Modo Ayuda donde aparecen opciones
+
 	Modo Descargar Torrent de Pelicula
-	Modo Descargar Torrent de Juegos
+	Modo Descar
+	Modo ColorPicker
+	
 	Modo Bloc de Notas que tiene diferentes modos
 	{
  		Links programas crackeados
  		Lista de programas para PC
  		Lista de apps para el movil
 	}
-	Modo IA Tools para hacer equipos y elegir numero aleatorio
-	Modo Ayuda donde aparecen opciones
+
+	Modo Calculadora
 	Atajos de teclado
 }
 IDEAS PARA EL PROGRAMA
