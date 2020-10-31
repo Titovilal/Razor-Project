@@ -1,0 +1,20 @@
+POSIBLES FUNCIONES DEL PROGRAMA
+{
+	Modo Calculadora
+	Modo Lista de Tareas
+	Modo Descargar Torrent de Pelicula
+	Modo Descargar Torrent de Juegos
+	Modo Bloc de Notas que tiene diferentes modos
+	{
+ 		Links programas crackeados
+ 		Lista de programas para PC
+ 		Lista de apps para el movil
+	}
+	Modo IA Tools para hacer equipos y elegir numero aleatorio
+	Modo Ayuda donde aparecen opciones
+	Atajos de teclado
+}
+IDEAS PARA EL PROGRAMA
+{
+	Utilizar Drive y SplitPane para gestionar los links de peliculas, programas y juegos.
+}
