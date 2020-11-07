@@ -4,8 +4,7 @@ POSIBLES FUNCIONES DEL PROGRAMA
 	Modo IA Tools para hacer equipos y elegir numero aleatorio
 	Modo Ayuda donde aparecen opciones
 
-	Modo Descargar Torrent de Pelicula
-	Modo Descar
+	Modo Descargar Torrents Juegos y Películas
 	Modo ColorPicker
 	
 	Modo Bloc de Notas que tiene diferentes modos
@@ -18,7 +17,26 @@ POSIBLES FUNCIONES DEL PROGRAMA
 	Modo Calculadora
 	Atajos de teclado
 }
+GUIA DE ESTILO DE MENUS
+{
+	Tareas
+	Modo IA
+	ColorPicker (Opcional)
+	Descarga Peliculas
+	Descarga Juegos
+	Descarga programas PC
+	Descarga programas Movil
+	Sección ayuda
+}
 IDEAS PARA EL PROGRAMA
 {
-	Utilizar Drive y SplitPane para gestionar los links de peliculas, programas y juegos.
+	Hacer que todo el programa sea local añadiendo links directos de descarga de las propias páginas
+	En el login poner un link con mi correo para conseguir user y contraseña del programa
+	Crear una ventana en vez de un JOptionPane para el modo Tareas
+	Sección ayuda:
+		Crear un pdf donde esta escrito donde saco los links
+		Sección con formas de contactar conmigo y como he hecho el programa
+		publicar repositorio donde he hecho el programa
+		
+
 }

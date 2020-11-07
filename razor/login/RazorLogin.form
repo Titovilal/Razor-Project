@@ -37,7 +37,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="45" green="52" red="ff" type="rgb"/>
+          <Color blue="4c" green="84" red="9e" type="rgb"/>
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -121,7 +121,7 @@
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="51" green="40" red="37" type="rgb"/>
+              <Color blue="3e" green="32" red="2b" type="rgb"/>
             </Property>
           </Properties>
 
@@ -160,7 +160,7 @@
             <Component class="javax.swing.JButton" name="buttonSalir">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="51" green="40" red="37" type="rgb"/>
+                  <Color blue="3e" green="32" red="2b" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="18" style="0"/>
@@ -180,7 +180,7 @@
             <Component class="javax.swing.JLabel" name="labelLoginDragged">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="51" green="40" red="37" type="rgb"/>
+                  <Color blue="3e" green="32" red="2b" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="14" style="0"/>
@@ -198,7 +198,7 @@
             <Component class="javax.swing.JButton" name="buttonMinimizar">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="51" green="40" red="37" type="rgb"/>
+                  <Color blue="3e" green="32" red="2b" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="18" style="0"/>
@@ -220,6 +220,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="labelIcon">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="3e" green="32" red="2b" type="rgb"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/razor/login/icons8_straight_razor_16.png"/>
@@ -231,7 +234,7 @@
         <Component class="javax.swing.JLabel" name="labelUser">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="40" green="48" red="d1" type="rgb"/>
+              <Color blue="4c" green="84" red="9e" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="12" style="0"/>
@@ -246,7 +249,7 @@
         <Component class="javax.swing.JLabel" name="labelPassword">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="40" green="48" red="d1" type="rgb"/>
+              <Color blue="4c" green="84" red="9e" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="12" style="0"/>
@@ -260,7 +263,7 @@
         <Component class="javax.swing.JTextField" name="textUser">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="45" green="52" red="ff" type="rgb"/>
+              <Color blue="4c" green="84" red="9e" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="14" style="0"/>
@@ -277,7 +280,7 @@
         <Component class="javax.swing.JPasswordField" name="textPassword">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="45" green="52" red="ff" type="rgb"/>
+              <Color blue="4c" green="84" red="9e" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="14" style="0"/>
@@ -294,7 +297,7 @@
         <Component class="javax.swing.JButton" name="buttonOk">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="51" green="40" red="37" type="rgb"/>
+              <Color blue="3e" green="32" red="2b" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="16" style="0"/>
@@ -313,6 +316,9 @@
         </Component>
         <Component class="javax.swing.JLabel" name="lebelSesion">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4c" green="84" red="9e" type="rgb"/>
+            </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="24" style="0"/>
             </Property>
@@ -325,6 +331,9 @@
         </Component>
         <Component class="javax.swing.JLabel" name="labelInfo">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4c" green="84" red="9e" type="rgb"/>
+            </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="10" style="0"/>
             </Property>
@@ -358,10 +367,10 @@
         <Component class="javax.swing.JLabel" name="labelError">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="45" green="52" red="ff" type="rgb"/>
+              <Color blue="4c" green="84" red="9e" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="45" green="52" red="ff" type="rgb"/>
+              <Color blue="4c" green="84" red="9e" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Combinaci&#xf3;n incorrecta! Int&#xe9;ntalo de nuevo."/>
           </Properties>

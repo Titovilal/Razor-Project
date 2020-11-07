@@ -46,12 +46,12 @@ public class RazorLogin extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
 
-        jPanel1.setBackground(new java.awt.Color(255, 82, 69));
+        jPanel1.setBackground(new java.awt.Color(158, 132, 76));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jPanel2.setBackground(new java.awt.Color(55, 64, 81));
+        jPanel2.setBackground(new java.awt.Color(43, 50, 62));
 
-        buttonSalir.setBackground(new java.awt.Color(55, 64, 81));
+        buttonSalir.setBackground(new java.awt.Color(43, 50, 62));
         buttonSalir.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         buttonSalir.setForeground(new java.awt.Color(255, 255, 255));
         buttonSalir.setText("X");
@@ -62,7 +62,7 @@ public class RazorLogin extends javax.swing.JFrame {
             }
         });
 
-        labelLoginDragged.setBackground(new java.awt.Color(55, 64, 81));
+        labelLoginDragged.setBackground(new java.awt.Color(43, 50, 62));
         labelLoginDragged.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         labelLoginDragged.setForeground(new java.awt.Color(255, 255, 255));
         labelLoginDragged.setText("Login - Razor Project 1.0");
@@ -77,7 +77,7 @@ public class RazorLogin extends javax.swing.JFrame {
             }
         });
 
-        buttonMinimizar.setBackground(new java.awt.Color(55, 64, 81));
+        buttonMinimizar.setBackground(new java.awt.Color(43, 50, 62));
         buttonMinimizar.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         buttonMinimizar.setForeground(new java.awt.Color(255, 255, 255));
         buttonMinimizar.setText("M");
@@ -91,6 +91,7 @@ public class RazorLogin extends javax.swing.JFrame {
             }
         });
 
+        labelIcon.setBackground(new java.awt.Color(43, 50, 62));
         labelIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/razor/login/icons8_straight_razor_16.png"))); // NOI18N
 
@@ -120,30 +121,30 @@ public class RazorLogin extends javax.swing.JFrame {
                         .addComponent(labelLoginDragged, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))))
         );
 
-        labelUser.setBackground(new java.awt.Color(209, 72, 64));
+        labelUser.setBackground(new java.awt.Color(158, 132, 76));
         labelUser.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         labelUser.setForeground(new java.awt.Color(247, 246, 244));
         labelUser.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelUser.setText("USUARIO");
 
-        labelPassword.setBackground(new java.awt.Color(209, 72, 64));
+        labelPassword.setBackground(new java.awt.Color(158, 132, 76));
         labelPassword.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         labelPassword.setForeground(new java.awt.Color(247, 246, 244));
         labelPassword.setText("CONTRASEÑA");
 
-        textUser.setBackground(new java.awt.Color(255, 82, 69));
+        textUser.setBackground(new java.awt.Color(158, 132, 76));
         textUser.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         textUser.setForeground(new java.awt.Color(247, 246, 244));
         textUser.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         textUser.setBorder(null);
 
-        textPassword.setBackground(new java.awt.Color(255, 82, 69));
+        textPassword.setBackground(new java.awt.Color(158, 132, 76));
         textPassword.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         textPassword.setForeground(new java.awt.Color(247, 246, 244));
         textPassword.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         textPassword.setBorder(null);
 
-        buttonOk.setBackground(new java.awt.Color(55, 64, 81));
+        buttonOk.setBackground(new java.awt.Color(43, 50, 62));
         buttonOk.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         buttonOk.setForeground(new java.awt.Color(247, 246, 244));
         buttonOk.setText("Login");
@@ -154,11 +155,13 @@ public class RazorLogin extends javax.swing.JFrame {
             }
         });
 
+        lebelSesion.setBackground(new java.awt.Color(158, 132, 76));
         lebelSesion.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         lebelSesion.setForeground(new java.awt.Color(247, 246, 244));
         lebelSesion.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lebelSesion.setText("Iniciar Sesión");
 
+        labelInfo.setBackground(new java.awt.Color(158, 132, 76));
         labelInfo.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
         labelInfo.setForeground(new java.awt.Color(247, 246, 244));
         labelInfo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -170,8 +173,8 @@ public class RazorLogin extends javax.swing.JFrame {
         jSeparator2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         jSeparator2.setPreferredSize(new java.awt.Dimension(0, 6));
 
-        labelError.setBackground(new java.awt.Color(255, 82, 69));
-        labelError.setForeground(new java.awt.Color(255, 82, 69));
+        labelError.setBackground(new java.awt.Color(158, 132, 76));
+        labelError.setForeground(new java.awt.Color(158, 132, 76));
         labelError.setText("Combinación incorrecta! Inténtalo de nuevo.");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
