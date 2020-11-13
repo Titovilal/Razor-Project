@@ -17,7 +17,6 @@ public class TaskNotesView extends javax.swing.JPanel {
     private TaskNotesModel tareas;
     private String str;
     private Color oscuro = new Color (55,64,81);
-    private Color blanco = new Color (255,255,255);
     private Color marron = new Color (158,132,76);
     private Color masoscuro = new Color (43,50,62);
     
@@ -26,6 +25,7 @@ public class TaskNotesView extends javax.swing.JPanel {
         tareas = new TaskNotesModel ();
         tareas.leerFichero();
         str = tareas.toStringTareasPendientes();
+
         
         initComponents();
         
@@ -76,7 +76,7 @@ public class TaskNotesView extends javax.swing.JPanel {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Gadugi", 0, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("Eliminar Tarea");
@@ -111,7 +111,7 @@ public class TaskNotesView extends javax.swing.JPanel {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Gadugi", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Completar Tarea");
@@ -146,7 +146,7 @@ public class TaskNotesView extends javax.swing.JPanel {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Gadugi", 0, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Agregar Tarea");
@@ -181,7 +181,7 @@ public class TaskNotesView extends javax.swing.JPanel {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Gadugi", 0, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Tareas Completadas");
@@ -216,7 +216,7 @@ public class TaskNotesView extends javax.swing.JPanel {
             }
         });
 
-        jLabel5.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Gadugi", 0, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Tareas Pendientes");
 
@@ -270,7 +270,7 @@ public class TaskNotesView extends javax.swing.JPanel {
         textTareas.setEditable(false);
         textTareas.setBackground(new java.awt.Color(43, 50, 62));
         textTareas.setColumns(20);
-        textTareas.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
+        textTareas.setFont(new java.awt.Font("Gadugi", 0, 16)); // NOI18N
         textTareas.setForeground(new java.awt.Color(255, 255, 255));
         textTareas.setRows(5);
         textTareas.setText(tareas.toStringTareasPendientes());
@@ -281,11 +281,11 @@ public class TaskNotesView extends javax.swing.JPanel {
         jPanel2.setBackground(new java.awt.Color(43, 50, 62));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jLabel6.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Gadugi", 0, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Tareas");
 
-        jLabel7.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Gadugi", 0, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Fecha dd/mm/aa");
 
@@ -328,7 +328,7 @@ public class TaskNotesView extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 453, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 458, Short.MAX_VALUE)
                 .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -363,11 +363,17 @@ public class TaskNotesView extends javax.swing.JPanel {
     private void panelTareasPendientesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_panelTareasPendientesMouseClicked
         // TODO add your handling code here:
         textTareas.setText(tareas.toStringTareasPendientes());
+        panelTareasPendientes.setBackground(marron);
+        if (PanelTareasCompletadas.getBackground() == marron)
+            PanelTareasCompletadas.setBackground(masoscuro);
     }//GEN-LAST:event_panelTareasPendientesMouseClicked
 
     private void PanelTareasCompletadasMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PanelTareasCompletadasMouseClicked
         // TODO add your handling code here:
         textTareas.setText(tareas.toStringTareasCompletadas());
+        PanelTareasCompletadas.setBackground(marron);
+        if (panelTareasPendientes.getBackground() == marron)
+            panelTareasPendientes.setBackground(masoscuro);
     }//GEN-LAST:event_PanelTareasCompletadasMouseClicked
 
     private void panelEliminarTareaMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_panelEliminarTareaMouseEntered
@@ -394,25 +400,21 @@ public class TaskNotesView extends javax.swing.JPanel {
         // TODO add your handling code here:
         panelCompletarTarea.setBackground(masoscuro);
     }//GEN-LAST:event_panelCompletarTareaMouseExited
-
+    
     private void PanelTareasCompletadasMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PanelTareasCompletadasMouseEntered
         // TODO add your handling code here:
-        PanelTareasCompletadas.setBackground(marron);
     }//GEN-LAST:event_PanelTareasCompletadasMouseEntered
 
     private void PanelTareasCompletadasMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PanelTareasCompletadasMouseExited
         // TODO add your handling code here:
-        PanelTareasCompletadas.setBackground(masoscuro);
     }//GEN-LAST:event_PanelTareasCompletadasMouseExited
 
     private void panelTareasPendientesMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_panelTareasPendientesMouseEntered
         // TODO add your handling code here:
-        panelTareasPendientes.setBackground(marron);
     }//GEN-LAST:event_panelTareasPendientesMouseEntered
 
     private void panelTareasPendientesMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_panelTareasPendientesMouseExited
         // TODO add your handling code here:
-        panelTareasPendientes.setBackground(masoscuro);
     }//GEN-LAST:event_panelTareasPendientesMouseExited
     // </editor-fold>
 

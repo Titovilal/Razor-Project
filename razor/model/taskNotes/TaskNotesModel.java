@@ -17,7 +17,7 @@ public class TaskNotesModel {
     /*
         VARIABLES USADAS EN EL PROGRAMA
     */
-    private List <String> infoP,infoC;
+    private ArrayList <String> infoP,infoC; //HE CAMBIADO DE LIST A ARRAYLIST, SI HAY ERRORES ES POR ESTO
     private final String nameFile1;
     private final String nameFile2;
     private FileReader fr;
@@ -60,6 +60,8 @@ public class TaskNotesModel {
             }
             //LEER TAREAS COMPLETADAS
             f = new File (nameFile2);
+            fr = new FileReader(f);
+            br = new BufferedReader (fr);
             n = 0;
             
             while((linea=br.readLine())!=null){
@@ -136,7 +138,7 @@ public class TaskNotesModel {
         n = 1;
         for (String str:infoP)
         {
-            frase =" " + frase + n + " " +str + "\n";
+            frase ="" + frase + n + " " +str + "\n";
             n++;
         }
         return frase;
@@ -150,7 +152,7 @@ public class TaskNotesModel {
         n = 1;
         for (String str:infoC)
         {
-            frase ="  " + frase + n + " " +str + "\n";
+            frase ="" + frase + n + " " +str + "\n";
             n++;
         }
         return frase;

@@ -17,6 +17,7 @@ public class RazorLogin extends javax.swing.JFrame {
     private int xMouse;
     private int yMouse;
     private RazorViewController view;
+    private String user = "root",password = "root";
     
     public RazorLogin() {
         initComponents();
@@ -276,12 +277,12 @@ public class RazorLogin extends javax.swing.JFrame {
 
     private void buttonOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonOkActionPerformed
         // TODO add your handling code here:
-        if ("root".equals(textUser.getText()) && "root".equals(textPassword.getText())){
+        if (user.equals(textUser.getText()) && password.equals(textPassword.getText())){
             view = new RazorViewController ();
             view.setVisible(true);
             this.setVisible(false);
         }
-        else if ("root".equals(textUser.getText()) == false && "root".equals(textPassword.getText()) == false)
+        else if (user.equals(textUser.getText()) == false || password.equals(textPassword.getText()) == false)
             labelError.setForeground(Color.white);
     }//GEN-LAST:event_buttonOkActionPerformed
 
